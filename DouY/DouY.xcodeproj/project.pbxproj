@@ -74,6 +74,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C229CCE1EB355E200DB9520 /* Code_logic */ = {
+			isa = PBXGroup;
+			children = (
+				5C229CD41EB355E200DB9520 /* Toods(公用) */,
+				5C229CD21EB355E200DB9520 /* Main */,
+				5C229CD01EB355E200DB9520 /* Home(首页) */,
+				5C229CD11EB355E200DB9520 /* Live(直播) */,
+				5C229CD31EB355E200DB9520 /* podfile(我) */,
+				5C229CCF1EB355E200DB9520 /* follow(关注) */,
+			);
+			path = Code_logic;
+			sourceTree = "<group>";
+		};
+		5C229CCF1EB355E200DB9520 /* follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "follow(关注)";
+			sourceTree = "<group>";
+		};
+		5C229CD01EB355E200DB9520 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		5C229CD11EB355E200DB9520 /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		5C229CD21EB355E200DB9520 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5C229CD31EB355E200DB9520 /* podfile(我) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "podfile(我)";
+			sourceTree = "<group>";
+		};
+		5C229CD41EB355E200DB9520 /* Toods(公用) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Toods(公用)";
+			sourceTree = "<group>";
+		};
 		5C2F0E7D1EB302C20078CB82 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +152,7 @@
 		5C2F0E881EB302C20078CB82 /* DouY */ = {
 			isa = PBXGroup;
 			children = (
+				5C229CCE1EB355E200DB9520 /* Code_logic */,
 				5C2F0E891EB302C20078CB82 /* AppDelegate.swift */,
 				5C2F0E8B1EB302C20078CB82 /* ViewController.swift */,
 				5C2F0E8D1EB302C20078CB82 /* Main.storyboard */,
