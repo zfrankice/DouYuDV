@@ -14,6 +14,10 @@
 		5C2F0E941EB302C30078CB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2F0E921EB302C30078CB82 /* LaunchScreen.storyboard */; };
 		5C2F0E9F1EB302C30078CB82 /* DouYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F0E9E1EB302C30078CB82 /* DouYTests.swift */; };
 		5C2F0EAA1EB302C30078CB82 /* DouYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F0EA91EB302C30078CB82 /* DouYUITests.swift */; };
+		5CE486591EB7046F00F778F1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE486571EB7046F00F778F1 /* Home.storyboard */; };
+		5CE4865C1EB7049600F778F1 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE4865A1EB7049600F778F1 /* Live.storyboard */; };
+		5CE4865E1EB704B200F778F1 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE4865D1EB704B200F778F1 /* Follow.storyboard */; };
+		5CE486611EB704CC00F778F1 /* Podfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE4865F1EB704CC00F778F1 /* Podfile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,11 @@
 		5C2F0EA51EB302C30078CB82 /* DouYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2F0EA91EB302C30078CB82 /* DouYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYUITests.swift; sourceTree = "<group>"; };
 		5C2F0EAB1EB302C30078CB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3AEE3A1EB70A250074D447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = DouY/Base.lproj/MainViewController.swift; sourceTree = SOURCE_ROOT; };
+		5CE486581EB7046F00F778F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouY/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		5CE4865B1EB7049600F778F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouY/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		5CE4865D1EB704B200F778F1 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = DouY/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		5CE486601EB704CC00F778F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouY/Base.lproj/Podfile.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,7 @@
 		5C229CCF1EB355E200DB9520 /* follow(关注) */ = {
 			isa = PBXGroup;
 			children = (
+				5CE4865D1EB704B200F778F1 /* Follow.storyboard */,
 			);
 			path = "follow(关注)";
 			sourceTree = "<group>";
@@ -97,6 +107,7 @@
 		5C229CD01EB355E200DB9520 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				5CE486571EB7046F00F778F1 /* Home.storyboard */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -104,6 +115,7 @@
 		5C229CD11EB355E200DB9520 /* Live(直播) */ = {
 			isa = PBXGroup;
 			children = (
+				5CE4865A1EB7049600F778F1 /* Live.storyboard */,
 			);
 			path = "Live(直播)";
 			sourceTree = "<group>";
@@ -111,6 +123,7 @@
 		5C229CD21EB355E200DB9520 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5C3AEE391EB70A250074D447 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -118,6 +131,7 @@
 		5C229CD31EB355E200DB9520 /* podfile(我) */ = {
 			isa = PBXGroup;
 			children = (
+				5CE4865F1EB704CC00F778F1 /* Podfile.storyboard */,
 			);
 			path = "podfile(我)";
 			sourceTree = "<group>";
@@ -249,6 +263,7 @@
 				TargetAttributes = {
 					5C2F0E851EB302C20078CB82 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K67CVCM32L;
 						ProvisioningStyle = Automatic;
 					};
 					5C2F0E991EB302C30078CB82 = {
@@ -289,8 +304,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C2F0E941EB302C30078CB82 /* LaunchScreen.storyboard in Resources */,
+				5CE486611EB704CC00F778F1 /* Podfile.storyboard in Resources */,
 				5C2F0E911EB302C20078CB82 /* Assets.xcassets in Resources */,
 				5C2F0E8F1EB302C20078CB82 /* Main.storyboard in Resources */,
+				5CE4865C1EB7049600F778F1 /* Live.storyboard in Resources */,
+				5CE486591EB7046F00F778F1 /* Home.storyboard in Resources */,
+				5CE4865E1EB704B200F778F1 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +387,38 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		5C3AEE391EB70A250074D447 /* MainViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3AEE3A1EB70A250074D447 /* Base */,
+			);
+			name = MainViewController.swift;
+			sourceTree = "<group>";
+		};
+		5CE486571EB7046F00F778F1 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE486581EB7046F00F778F1 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE4865A1EB7049600F778F1 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE4865B1EB7049600F778F1 /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		5CE4865F1EB704CC00F778F1 /* Podfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CE486601EB704CC00F778F1 /* Base */,
+			);
+			name = Podfile.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -412,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -457,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -470,8 +521,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = K67CVCM32L;
 				INFOPLIST_FILE = DouY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlj.DouY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,8 +535,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = K67CVCM32L;
 				INFOPLIST_FILE = DouY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlj.DouY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
